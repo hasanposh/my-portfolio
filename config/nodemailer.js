@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
-const email = process.env.NEXT_PUBLIC_EMAIL;
-const pass = process.env.NEXT_PUBLIC_EMAIL_PASS;
+const email = 'hasan104hasan@gmail.com';
+const pass = 'lqno uiwh tfpy meay';
 
 export const transporter = nodemailer.createTransport({
   service: "gmail",
