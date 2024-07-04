@@ -1,5 +1,6 @@
+import { mailOptions, transporter } from "@/config/nodemailer";
 import { NextResponse } from "next/server";
-import { mailOptions, transporter } from "../../../config/nodemailer";
+
 
 export async function POST(req, res) {
   if (req.method === "POST") {
