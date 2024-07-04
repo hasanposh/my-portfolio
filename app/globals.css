@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.btn-primary-selected {
+  background: #042f2e;
+  color: white;
+  box-shadow: inset 300px 0 0 0 #042f2e;
+  transition: ease-in-out 0.6s;
+}
+
+.btn-primary:hover {
+  background: #fcfcfc;
+  color: #095855;
+  box-shadow: inset 300px 0 0 0 #fcfcfc;
+  transition: ease-in-out 0.6s;
+}
+.btn-submit:hover {
+  background: #fcfcfc;
+  color: #095855;
+  box-shadow: inset 800px 0 0 0 #fcfcfc;
+  transition: ease-in-out 0.7s;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.open {
+  animation: slide-down 0.3s ease-in-out forwards;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #030e0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #042f2e;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #042f2e;
+}
