@@ -47,7 +47,7 @@ const EmailSection = () => {
     };
 
     const response = await fetch("/api/send", options);
-
+    console.log(response);
     if (response.status === 200) {
       setEmailSubmitted(true);
       setTimeout(() => {
