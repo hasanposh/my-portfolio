@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Md. Hasan Mahmud",
   description: "Md. Hasan Mahmud portfolio",
-  icons: "/logo.jpg",
+  icons: "/logo.png",
   manifest: "/site.webmanifest",
 };
 

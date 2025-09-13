@@ -48,7 +48,7 @@ const HeroSection = () => {
           <div className="place-self-center">
             <Image
               className="rounded-full"
-              src={"/images/heroImg.jpg"}
+              src={"/images/heroImg.png"}
               alt="hero img"
               height={300}
               width={300}

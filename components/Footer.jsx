@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex items-center p-3">
           <Image
             className="rounded-full"
-            src={"/images/navIcon.gif"}
+            src={"/images/navIcon.png"}
             alt="navIcon"
             height={50}
             width={50}

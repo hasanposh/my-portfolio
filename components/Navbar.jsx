@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link href={"/"}>
           <Image
             className="rounded-full"
-            src={"/images/navIcon.gif"}
+            src={"/images/navIcon.png"}
             alt="navIcon"
             height={60}
             width={60}
