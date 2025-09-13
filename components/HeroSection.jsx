@@ -35,7 +35,7 @@ const HeroSection = () => {
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-primary-800 to-secondary-500 hover:bg-slate-200 text-white hover:scale-105 transition ease-in-out btn-primary">
               <Link
                 href={
-                  "https://drive.google.com/file/d/1kNXyVZhjz5WGEivtcge9aKE-sfCw-Gm1/view"
+                  "https://drive.google.com/file/d/1zSLYe2O9RW4_Fdo0lNHzU-BH8IyBNYyB/view"
                 }
                 target="_blank"
               >
